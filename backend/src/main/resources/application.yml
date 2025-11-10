@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+logging:
+  level:
+    com.example.notification: INFO
+    org.springframework.web.socket: INFO
